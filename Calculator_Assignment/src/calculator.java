@@ -15,4 +15,8 @@ public class calculator {
     public int division(int x, int y) {
         return x % y;
     }
+
+    public int square(int x) {
+        return x * x;
+    }
 }

@@ -30,4 +30,11 @@ class calculatorTest {
         calc.division(21,9);
         assertEquals(3, calc.division(21,9));
     }
+
+    @Test
+    public void squareNumber() {
+        calculator calc = new calculator();
+        calc.square(10);
+        assertEquals(100, calc.square(10));
+    }
 }
