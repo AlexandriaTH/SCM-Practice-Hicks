@@ -19,4 +19,8 @@ public class calculator {
     public int square(int x) {
         return x * x;
     }
+
+    public int powerFunction(int x, int y) {
+        return (int) Math.pow(x,y);
+    }
 }

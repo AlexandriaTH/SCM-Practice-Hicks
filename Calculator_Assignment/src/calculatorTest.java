@@ -37,4 +37,11 @@ class calculatorTest {
         calc.square(10);
         assertEquals(100, calc.square(10));
     }
+
+    @Test
+    public void power() {
+        calculator calc = new calculator();
+        calc.powerFunction(2,2);
+        assertEquals(4, calc.powerFunction(2,2));
+    }
 }
